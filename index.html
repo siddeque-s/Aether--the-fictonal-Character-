@@ -13,6 +13,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,14 +33,14 @@
   </head>
   <body>
     <nav>
-      <img src="./assets/hero2.png" alt="" />
+      <img src="./assets/Aether.png" alt="" />
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Stats</a></li>
-        <li><a href="">Inventory</a></li>
-        <li><a href="">Allies</a></li>
-        <li><a href="">Enemies</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bio">About</a></li>
+        <li><a href="#statssection">Stats</a></li>
+        <li><a href="#inventorySection">Inventory</a></li>
+        <li><a href="#allies">Allies</a></li>
+        <li><a href="enemies">Enemies</a></li>
       </ul>
     </nav>
 
@@ -46,7 +56,12 @@
         <h3 id="thirdHeading">MASTER OF ALL BLADES,<br />BOUND BY NONE</h3>
       </div>
       <div id="homeDiv2">
-        <img src="./assets/hero without bacvkground.png" alt="" />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+          src="./assets/hero without bacvkground.png"
+          alt=""
+        />
       </div>
     </section>
 
@@ -55,60 +70,49 @@
       <h1 class="bioheading">Story Of Aether</h1>
       <br />
 
-      <p class="line1">
-        <div class="typewriter" id="delay1">
-          <p>In the forgotten lands of Valthor — a realm cloaked in mist and myth —
-        Aethor was born under a celestial alignment known as the "Forgemoon."
-        From that moment, he was marked by fate. Gifted with the rare power of
-        Aetherforge, Aethor could conjure, control, and even reshape weapons
-        from memory, myth, or imagination. Swords forged in dragonfire, axes
-        carved from stardust, bows that never missed — they all answered his
-        call.</p>
-        </div>
+      <div class="typewriter" id="delay1">
+        <p data-aos="zoom-in">
+          In the forgotten lands of Valthor — a realm cloaked in mist and myth —
+          Aethor was born under a celestial alignment known as the "Forgemoon."
+          From that moment, he was marked by fate. Gifted with the rare power of
+          Aetherforge, Aethor could conjure, control, and even reshape weapons
+          from memory, myth, or imagination. Swords forged in dragonfire, axes
+          carved from stardust, bows that never missed — they all answered his
+          call.
+        </p>
+      </div>
 
-        <div class="typewriter" id="delay2">
-          <p>
-            As he grew, so did his power — and with it, the fear of kings and
-        empires. Once a champion to many, Aethor was betrayed by those who once
-        praised him, condemned as a threat too great to rule beside. Hunted and
-        exiled, he vanished into the world's darkest corners.
-          </p>
-        </div>
+      <div class="typewriter" id="delay2">
+        <p data-aos="zoom-in">
+          As he grew, so did his power — and with it, the fear of kings and
+          empires. Once a champion to many, Aethor was betrayed by those who
+          once praised him, condemned as a threat too great to rule beside.
+          Hunted and exiled, he vanished into the world's darkest corners.
+        </p>
+      </div>
 
-        <div class="typewriter" id="delay3">
-          <p>
-             But he did not fall.
-          </p>
-        </div>
+      <div class="typewriter" id="delay3">
+        <p data-aos="zoom-in">But he did not fall.</p>
+      </div>
 
+      <div class="typewriter" id="delay4">
+        <p data-aos="zoom-in">
+          Now, he roams the war-torn realms as a mythic nomad, driven by a new
+          purpose: to track down and seal cursed weapons before they fall into
+          corrupt hands. Bound to the Arsenal Core — a sentient relic forged
+          from the remnants of gods — Aethor can feel the pull of ancient blades
+          echoing across dimensions.
+        </p>
+      </div>
 
-        <div class="typewriter" id="delay4">
-          <p>
-            Now, he roams the war-torn realms as a mythic nomad, driven by a new
-        purpose: to track down and seal cursed weapons before they fall into
-        corrupt hands. Bound to the Arsenal Core — a sentient relic forged from
-        the remnants of gods — Aethor can feel the pull of ancient blades
-        echoing across dimensions.
-          </p>
-        </div>
-
-
-        <div class="typewriter" id="delay5">
-          <p>
-            Though thousands of weapons obey his command, he is a servant to none.
-        Every scar on his armor tells a story, every weapon he bears holds a
-        soul, and every enemy he faces learns the truth too late: Aethor is the
-        master of all blades — bound by none.
-          </p>
-        </div>
-
-
-       
-
-
-        
-        
-      </p>
+      <div class="typewriter" id="delay5">
+        <p data-aos="zoom-in">
+          Though thousands of weapons obey his command, he is a servant to none.
+          Every scar on his armor tells a story, every weapon he bears holds a
+          soul, and every enemy he faces learns the truth too late: Aethor is
+          the master of all blades — bound by none.
+        </p>
+      </div>
     </section>
 
     <!-- stats -->
@@ -128,17 +132,17 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below1"></div>
+              <div data-aos="fade-right" class="below1"></div>
             </div>
           </div>
           <div class="statsDiv">
             <div class="contentsDiv">
               <h3 class="ability">Durability</h3>
-              <h3 class="percentage">82%</h3>
+              <h3 class="percentage">72%</h3>
             </div>
             <div class="bar">
               <div class="main"></div>
-              <div class="below2"></div>
+              <div data-aos="fade-right" class="below2"></div>
             </div>
           </div>
           <div class="statsDiv">
@@ -149,7 +153,7 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below3"></div>
+              <div data-aos="fade-right" class="below3"></div>
             </div>
           </div>
           <div class="statsDiv">
@@ -160,7 +164,7 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below4"></div>
+              <div data-aos="fade-right" class="below4"></div>
             </div>
           </div>
           <div class="statsDiv">
@@ -171,7 +175,7 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below5"></div>
+              <div data-aos="fade-right" class="below5"></div>
             </div>
           </div>
           <div class="statsDiv">
@@ -182,7 +186,7 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below6"></div>
+              <div data-aos="fade-right" class="below6"></div>
             </div>
           </div>
           <div class="statsDiv">
@@ -193,7 +197,7 @@
 
             <div class="bar">
               <div class="main"></div>
-              <div class="below7"></div>
+              <div data-aos="fade-right" class="below7"></div>
             </div>
           </div>
         </div>
@@ -204,82 +208,198 @@
     <section id="inventorySection">
       <h3 class="bioheading">Inventory</h3>
       <div class="invDiv1">
-        <div class="inventoryWeapons">
+        <div data-aos="flip-left" class="inventoryWeapons">
+          <h3>Stellafrost, the Celestial Reaver</h3>
           <img src="./assets/axe.png" alt="" />
+
+          <p>
+            Forged from starlight and eternal ice, it cleaves both time and
+            space.
+          </p>
         </div>
-        <div class="inventoryWeapons">
+        <div data-aos="flip-left" class="inventoryWeapons">
+          <h3>Skullbrand, the Infernal Oathblade</h3>
           <img src="./assets/sword.png" alt="" />
+
+          <p>
+            Cursed with the souls of the damned, it burns with unending wrath.
+          </p>
         </div>
-        <div class="inventoryWeapons">
+        <div data-aos="flip-left" class="inventoryWeapons">
+          <h3>Umbracrest, Shadow Sentinel</h3>
           <img src="./assets/shield1.png" alt="" />
+
+          <p>Forged in war, it absorbs the fury of foes and radiates fear.</p>
         </div>
       </div>
       <br />
-      <div class="inDiv2">
+      <br />
+      <div data-aos="flip-left" class="inDiv2">
         <div class="inventoryWeapons">
+          <h3>Nyxfang, Spear of the Piercing Moonlight</h3>
           <img src="./assets/spear.png" alt="" />
+
+          <p>
+            A swift weapon that whispers in the wind, striking with lunar
+            precision.
+          </p>
         </div>
-        <div class="inventoryWeapons">
+        <div data-aos="flip-left" class="inventoryWeapons">
+          <h3>Aethercore, the Arcforge Hammer</h3>
           <img src="./assets/hammer.png" alt="" />
+
+          <p>
+            Powered by arcane energy and ancient technology, it delivers
+            thunderous justice.
+          </p>
         </div>
-        <div class="inventoryWeapons">
-          <img src="./assets/hero1.png" alt="" />
+        <div data-aos="flip-left" class="inventoryWeapons">
+          <h3>Thornveil, the Emerald Curse</h3>
+          <img src="./assets/ring.png" alt="" />
+          <p>
+            Born of shadowed groves, it pulses with wild magic and bends the
+            wearer's will.
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- allies -->
+    <section id="allies">
+      <h3 class="bioheading">Allies</h3>
 
+      <div class="alliesDiv">
+        <div data-aos="fade-right" class="alliesCharacter">
+          <div class="alliesDivImg">
+            <img src="./assets/allies5-removebg-preview.png" alt="" />
+          </div>
 
-      <!-- allies -->
-       <section id="enemies">
-        <h3 class="bioheading">Allies</h3>
-      <div class="enimiesDiv">
-        <div class="enimieesDivImg">
-          <img src="./assets/allies5.png" alt="">
+          <div class="alliesInfo">
+            <h3>Rynneth, The Ember-Eyed Ranger</h3>
+            <h4>Silent Watcher of the Wildwoods</h4>
+            <p>
+              Swift as the wind and silent as a shadow, Rynneth's golden eyes
+              see what others cannot. Trained by an ancient forest tribe, he
+              weaves between trees like a ghost, loosing arrows infused with
+              ancient fire. His bond with Aethor stems from a shared hatred of
+              corrupted relics, often scouting and eliminating threats before
+              they even reach the party.
+            </p>
+          </div>
         </div>
-        <div class="enimieesDivImg">
-          <img src="./assets/allies6.png" alt="">
+
+        <div data-aos="fade-left" class="alliesCharacter" id="rightchar">
+          <div class="alliesInfo">
+            <h3>Vaelira, The Runechant Sorceress</h3>
+            <h4>Keeper of Forbidden Glyphs</h4>
+            <p>
+              With arcane runes spinning around her like stars, Vaelira channels
+              forgotten magics to bend reality. Once a royal scholar, she
+              abandoned the kingdom after discovering truths too dangerous to
+              remain hidden. Now, she aids Aethor with powerful wards and
+              explosive spells, decoding ancient weapon seals that even the
+              Arsenal Core cannot translate alone.
+            </p>
+          </div>
+          <div class="alliesDivImg">
+            <img src="./assets/allies6-removebg-preview.png" alt="" />
+          </div>
         </div>
-        <div class="enimieesDivImg">
-          <img src="./assets/allies3.png" alt="">
+
+        <div data-aos="fade-right" class="alliesCharacter">
+          <div class="alliesDivImg">
+            <img src="./assets/allies1-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="alliesInfo">
+            <h3>Ser Thalor, The Eternal Crown</h3>
+            <h4>Warden of the Sacred Flame</h4>
+            <p>
+              Towering in golden armor and crowned with arcane emeralds, Ser
+              Thalor is a living relic of the old world — a knight-king who
+              never fell. Bound by oath to the ancient kingdom of Valthor, he
+              rose again through divine flame to uphold forgotten vows. Silent
+              and unwavering, Thalor now fights beside Aethor, his flaming blade
+              forged to smite corrupted kings and shattered empires alike.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-    
 
     <!-- enemies -->
-    <section id="allies">
+    <section id="enemies">
       <h3 class="bioheading">Enemies</h3>
-      <div class="alliesDiv">
-        <div class="alliesDivImg">
-          <img src="./assets/villian2.png" alt="">
+
+      <div class="enemiesDiv">
+        <div data-aos="fade-right" class="enemiesCharacter">
+          <div class="enemiesDivImg">
+            <img src="./assets/villian2-removebg-preview.png" alt="" />
+          </div>
+          <div class="enemiesInfo">
+            <h3>Grulmar, The Ironfang Warlord</h3>
+            <h4>Brute of the Blighted Horde</h4>
+            <p>
+              A monstrous bugbear forged in endless battles, Grulmar is feared
+              for his ruthless tactics and colossal strength. Armed with a
+              jagged cleaver and impenetrable hide, he commands armies of
+              raiders and warbeasts. His sole desire is to crush Aethor and
+              seize the Arsenal Core to forge a weapon worthy of gods.
+            </p>
+          </div>
         </div>
-        <div class="alliesDivImg">
-          <img src="./assets/villian3.png" alt="">
+
+        <div data-aos="fade-left" class="enemiesCharacter" id="rightchar1">
+          <div class="enemiesInfo">
+            <h3>Morvak, The Obsidian Juggernaut</h3>
+            <h4>Breaker of Oaths</h4>
+            <p>
+              Encased in spiked gold-black armor, Morvak once swore loyalty to
+              Valthor, but betrayed the realm for power. Now a dark champion of
+              ruin, he crushes cities underfoot. His gauntlets are said to
+              shatter magic barriers, and his hatred for Aethor is fueled by an
+              ancient rivalry born in fire and betrayal.
+            </p>
+          </div>
+          <div class="enemiesDivImg">
+            <img src="./assets/villian3-removebg-preview.png" alt="" />
+          </div>
         </div>
-        <div class="alliesDivImg">
-          <img src="./assets/villian 4.png" alt="">
+
+        <div data-aos="fade-right" class="enemiesCharacter">
+          <div class="enemiesDivImg">
+            <img
+              src="./assets/craiyon_194149_Bugbear_spartan_with_sword_and_shield-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="enemiesInfo">
+            <h3>Skulroth, The Reaping Shadow</h3>
+            <h4>Wielder of the Abyssal Blade</h4>
+            <p>
+              A lich-knight forged in undeath, Skulroth commands legions of
+              wraiths and fallen souls. His crimson blade drains life with every
+              strike. Once a fallen king cursed by his own sword, he now hunts
+              Aethor to reclaim the Arsenal Core and plunge all realms into
+              eternal dusk.
+            </p>
+          </div>
         </div>
       </div>
-      
-      
-
     </section>
 
-
- 
-
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    
   </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script>
+    AOS.init();
+  </script>
 </html>

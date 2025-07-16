@@ -4,6 +4,14 @@
   color: #dcbb03;
   font-family: "Merienda", cursive;
 }
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* body, html {
+  overflow-x: hidden;
+} */
 
 body {
   background: url("./assets/background_new.png") no-repeat center center fixed;
@@ -104,6 +112,7 @@ nav a:hover {
   margin-top: 50px;
   margin-left: 50px;
 }
+
 .STATUSimage {
   width: 40%;
 }
@@ -111,6 +120,10 @@ nav a:hover {
   margin-left: 20px;
   width: 90%;
 }
+.below1 {
+  transition: 1.5s ease-out;
+}
+
 #parent {
   width: 50%;
   position: relative;
@@ -136,7 +149,7 @@ nav a:hover {
 .below2 {
   position: absolute;
   height: 7px;
-  width: 82%;
+  width: 72%;
   background-color: #0344dc;
   border-radius: 4px;
 }
@@ -188,59 +201,117 @@ nav a:hover {
 .invDiv1 {
   margin-top: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .inDiv2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .inventoryWeapons {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 350px;
   border: 2px solid;
+  text-align: center;
+  border-radius: 10px;
+}
+.inventoryWeapons h3 {
+  color: #e1d699;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.inventoryWeapons p {
+  color: #d8ca79;
 }
 .inventoryWeapons img {
   width: 100%;
+  height: 70%;
 }
-
+.inventoryWeapons:hover {
+  border-color: rgb(238, 28, 28);
+  box-shadow: 0 0 10px white;
+}
 
 /* allies */
-#allies{
+#allies {
   margin-top: 200px;
 }
-.alliesDiv{
-  display: flex;
-  justify-content: space-around;
-}
-.alliesDivImg{
-  height: 400px;
-  width: 300px;
-  border: 2px solid;
+.alliesDiv {
+  margin-top: 50px;
 }
 
-.alliesDivImg img{
-  width: 100%;
+.alliesCharacter {
+  display: flex;
+  margin-left: 50px;
+}
+
+.alliesDivImg {
+  height: 500px;
+}
+
+#rightchar {
+  margin-left: 400px;
+}
+
+.alliesInfo {
+  margin-left: 20px;
+  width: 600px;
+  margin-top: 100px;
+}
+.alliesInfo h3 {
+  font-size: 35px;
+}
+.alliesInfo h4 {
+  font-size: 28px;
+  border-bottom: 3px solid;
+}
+.alliesInfo p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.alliesDivImg img {
+  height: 100%;
 }
 
 /* enemies */
 
-#enemies{
+#enemies {
   margin-top: 200px;
 }
-.enimiesDiv{
+.enemiesDiv {
+  margin-top: 50px;
+}
+
+.enemiesCharacter {
   display: flex;
-  justify-content: space-around;
-}
-.enimieesDivImg{
-  height: 400px;
-  width: 300px;
-  border: 2px solid;
+  margin-left: 50px;
 }
 
-.enimieesDivImg img{
-  width: 100%;
+.enemiesDivImg {
+  height: 500px;
 }
 
+#rightchar1 {
+  margin-left: 400px;
+}
 
+.enemiesInfo {
+  margin-left: 20px;
+  width: 600px;
+  margin-top: 100px;
+}
+.enemiesInfo h3 {
+  font-size: 35px;
+}
+.enemiesInfo h4 {
+  font-size: 28px;
+  border-bottom: 3px solid;
+}
+.enemiesInfo p {
+  margin-top: 15px;
+  font-size: 20px;
+}
 
-
+.enemiesDivImg img {
+  height: 100%;
+}
