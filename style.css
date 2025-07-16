@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #dcbb03;
+  font-family: "Merienda", cursive;
+}
+
+body {
+  background: url("./assets/background_new.png") no-repeat center center fixed;
+  /* background-size: cover; */
+}
+
+nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  margin-left: 100px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #ff3c38;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #a18a04;
+  border-bottom: 3px solid #ffd700;
+  padding: 5px;
+}
+
+/* section home */
+#home {
+  margin-left: 50px;
+  display: flex;
+  padding-top: 80px;
+}
+#homeDiv1 h1 {
+  font-size: 70px;
+}
+#secheading {
+  font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #907b04cf;
+}
+#thirdHeading {
+  font-size: 30px;
+}
+#homeDiv1 {
+  margin: 130px 0px 0px 200px;
+}
+
+#home div {
+  width: 50%;
+  height: 700px;
+}
+#homeDiv2 {
+  margin-left: 300px;
+  margin-top: -50px;
+}
+#homeDiv2 img {
+  height: 100%;
+  margin-left: -250px;
+}
+
+/* bio */
+#bio {
+  text-align: center;
+}
+.bioheading {
+  font-size: 40px;
+  text-align: center;
+}
+
+#bio p {
+  font-family: "Noto Sans Display", sans-serif;
+  color: #f0e68c;
+  font-size: larger;
+  margin: 10px 120px 0px 170px;
+}
+
+/* stats */
+
+#statssection {
+  margin-top: 200px;
+}
+
+#stats {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.STATUSimage {
+  width: 40%;
+}
+.STATUSimage img {
+  margin-left: 20px;
+  width: 90%;
+}
+#parent {
+  width: 50%;
+  position: relative;
+}
+.contentsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  background-color: #dcbb03;
+  border-radius: 4px;
+}
+.below1 {
+  position: absolute;
+  height: 7px;
+  width: 89%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below2 {
+  position: absolute;
+  height: 7px;
+  width: 82%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below3 {
+  position: absolute;
+  height: 7px;
+  width: 85%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below4 {
+  position: absolute;
+  height: 7px;
+  width: 95%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below5 {
+  position: absolute;
+  height: 7px;
+  width: 92%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below6 {
+  position: absolute;
+  height: 7px;
+  width: 87%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+.below7 {
+  position: absolute;
+  height: 7px;
+  width: 78%;
+  background-color: #0344dc;
+  border-radius: 4px;
+}
+
+.statsDiv {
+  margin-top: 45px;
+}
+
+/* inventory */
+#inventorySection {
+  margin-top: 200px;
+}
+
+.invDiv1 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.inDiv2 {
+  display: flex;
+  justify-content: space-around;
+}
+.inventoryWeapons {
+  height: 400px;
+  width: 300px;
+  border: 2px solid;
+}
+.inventoryWeapons img {
+  width: 100%;
+}
+
+
+/* allies */
+#allies{
+  margin-top: 200px;
+}
+.alliesDiv{
+  display: flex;
+  justify-content: space-around;
+}
+.alliesDivImg{
+  height: 400px;
+  width: 300px;
+  border: 2px solid;
+}
+
+.alliesDivImg img{
+  width: 100%;
+}
+
+/* enemies */
+
+#enemies{
+  margin-top: 200px;
+}
+.enimiesDiv{
+  display: flex;
+  justify-content: space-around;
+}
+.enimieesDivImg{
+  height: 400px;
+  width: 300px;
+  border: 2px solid;
+}
+
+.enimieesDivImg img{
+  width: 100%;
+}
+
+
+
+
