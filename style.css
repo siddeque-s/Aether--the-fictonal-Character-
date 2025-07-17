@@ -315,3 +315,17 @@ nav a:hover {
 .enemiesDivImg img {
   height: 100%;
 }
+
+
+/* footer */
+#footer p{
+  text-align: center;
+}
+#footer{
+  background-color: #190121;
+  height: 50px;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+}
