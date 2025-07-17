@@ -8,7 +8,7 @@ body,
 html {
   overflow-x: hidden;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -19,7 +19,6 @@ html{
 body {
   background: url("./assets/background_new.png") no-repeat center center fixed;
   /* background-size: cover; */
-  
 }
 
 nav {
@@ -91,7 +90,6 @@ nav a:hover {
 }
 
 /* bio */
-
 
 #bio {
   text-align: center;
@@ -330,50 +328,46 @@ nav a:hover {
   height: 100%;
 }
 
-
 /* footer */
-#footer p,h4{
+#footer p,
+h4 {
   text-align: center;
 }
-#footer{
+#footer {
   background-color: #190121;
   height: 100px;
 }
-.contacts{
+.contacts {
   display: flex;
   justify-content: center;
- 
 }
-.apps a{
+.apps a {
   padding: 10px;
   font-size: 25px;
-  
 }
-.apps i{
+.apps i {
   margin-top: 5px;
   color: #b7b395;
   font-size: 30px;
 }
 
-.apps i:hover{
+.apps i:hover {
   animation: rotate 5s;
-
 }
-@keyframes rotate{
-  0%{
+@keyframes rotate {
+  0% {
     transform: rotate(30deg);
   }
-  25%{
-    transform : rotate(-30deg);
+  25% {
+    transform: rotate(-30deg);
   }
-  50%{
-    transform : rotate(30deg);
+  50% {
+    transform: rotate(30deg);
   }
-   75%{
-    transform : rotate(-30deg);
+  75% {
+    transform: rotate(-30deg);
   }
-  100%{
-    transform : rotate(30deg);
+  100% {
+    transform: rotate(30deg);
   }
-  
 }
