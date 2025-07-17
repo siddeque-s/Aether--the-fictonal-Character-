@@ -8,6 +8,9 @@ body,
 html {
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* body, html {
   overflow-x: hidden;
@@ -88,8 +91,11 @@ nav a:hover {
 }
 
 /* bio */
+
+
 #bio {
   text-align: center;
+  scroll-margin-top: 80px;
 }
 .bioheading {
   font-size: 40px;
@@ -107,6 +113,7 @@ nav a:hover {
 
 #statssection {
   margin-top: 200px;
+  scroll-margin-top: 80px;
 }
 
 #stats {
@@ -198,6 +205,7 @@ nav a:hover {
 /* inventory */
 #inventorySection {
   margin-top: 200px;
+  scroll-margin-top: 80px;
 }
 
 .invDiv1 {
@@ -215,6 +223,7 @@ nav a:hover {
   border: 2px solid;
   text-align: center;
   border-radius: 10px;
+  transition: 0.5s;
 }
 .inventoryWeapons h3 {
   color: #e1d699;
@@ -231,11 +240,13 @@ nav a:hover {
 .inventoryWeapons:hover {
   border-color: rgb(238, 28, 28);
   box-shadow: 0 0 10px white;
+  scale: 1.06;
 }
 
 /* allies */
 #allies {
   margin-top: 200px;
+  scroll-margin-top: 80px;
 }
 .alliesDiv {
   margin-top: 50px;
@@ -278,6 +289,7 @@ nav a:hover {
 /* enemies */
 
 #enemies {
+  scroll-margin-top: 80px;
   margin-top: 200px;
 }
 .enemiesDiv {
@@ -338,5 +350,30 @@ nav a:hover {
   
 }
 .apps i{
+  margin-top: 5px;
   color: #b7b395;
+  font-size: 30px;
+}
+
+.apps i:hover{
+  animation: rotate 5s;
+
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(30deg);
+  }
+  25%{
+    transform : rotate(-30deg);
+  }
+  50%{
+    transform : rotate(30deg);
+  }
+   75%{
+    transform : rotate(-30deg);
+  }
+  100%{
+    transform : rotate(30deg);
+  }
+  
 }
