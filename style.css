@@ -318,14 +318,23 @@ nav a:hover {
 
 
 /* footer */
-#footer p{
+#footer p,h4{
   text-align: center;
 }
 #footer{
   background-color: #190121;
-  height: 50px;
+  height: 100px;
 }
 .contacts{
   display: flex;
   justify-content: center;
+ 
+}
+.apps a{
+  padding: 10px;
+  font-size: 25px;
+  
+}
+.apps i{
+  color: #b7b395;
 }
